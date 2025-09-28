@@ -30,10 +30,10 @@ def tendencia(nombre, df, periodo, enfoque):
     label = 'Tendencia')
 
     # Serie original
-    plt.plot(df[nombre], alpha=0.5, label='Original')
+    plt.plot(df[nombre], alpha=0.5, label='Serie')
     plt.xlabel('Conteo')
     plt.ylabel(nombre)
-    plt.title('Tendencia mediante descomposición')
+    plt.title(f'Tendencia del {nombre}')
     plt.legend()
     plt.show()
 
