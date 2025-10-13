@@ -48,4 +48,24 @@ def cuadrada(df, columnas = None):
     
     return df_cuadrada
 
+def raiz(df, columnas = None):
+    '''
+    Obtiene la raíz de las columnas seleccionadas de un DataFrame.
+
+    Parámetros:
+    - df : pd.DataFrame
+    - columnas : lista de columnas a transformar (default: todas menos 'conteo')
+
+    Retorna:
+    - pd.DataFrame con las columnas seleccionadas elevadas al cuadrado
+    '''
+    df_cuadrada = df.copy()
+
+    if columnas is None:
+        columnas = [col for col in df_cuadrada.columns if col not in ['conteo']]
+
+    df_cuadrada[columnas] = df_cuadrada[columnas] ** 1/2
+    
+    return df_cuadrada
+
     
