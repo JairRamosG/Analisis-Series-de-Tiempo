@@ -2,7 +2,6 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Statsmodels-ARIMA%20%7C%20SARIMA%20%7C%20ETS-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Descomposición-Additive%20%7C%20Multiplicative-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Reference%20Repository-blue?style=for-the-badge"/>
 </div>
